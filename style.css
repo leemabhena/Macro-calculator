@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Oswald:wght@200;300;400;500;600;700&family=Playfair+Display:wght@400;500&family=Raleway:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.landing-page {
+    background: radial-gradient(circle at -4% -12.9%, rgb(74, 98, 110) 0.3%, rgb(30, 33, 48) 90.2%);
+    width: 100%;
+    min-height: 100vh;
+}
+
+nav {
+    background: transparent;
+    box-shadow: none;
+}
+
+.welcome {
+    width: 60vw;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2rem;
+}
+
+.intro {
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+
+.message {
+    color: #fff;
+    font-family: 'Island Moments', cursive;
+    font-size: 2rem;
+}
+
+.go-to-calc {
+    padding: 6px 12px;
+    background: transparent;
+    border-radius: 0;
+    border: 1px solid #fff;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 2rem;
+    transition: all ease 0.5s;
+}
+
+.go-to-calc:hover, .go-to-calc:focus {
+    background: transparent;
+}
+
+.go-to-calc:hover i[class*="fa-arrow-down"] {
+    transform: translateY(.1rem);
+}
+
+.line {
+    width: 2.5rem;
+    height: 0.2rem;
+    background-color: #fff;
+    margin: .8rem;
+}
+
+.hamburger {
+    cursor: pointer;
+}
+
+/* .hamburger.click .ln-1{
+    transform: rotate(45deg);
+    margin: 0;
+}
+
+.hamburger.click .ln-2{
+    transform: rotate(-45deg);
+    margin: 0;
+} */
